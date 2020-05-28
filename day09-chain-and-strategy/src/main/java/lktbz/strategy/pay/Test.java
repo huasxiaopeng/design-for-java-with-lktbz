@@ -1,6 +1,7 @@
 package lktbz.strategy.pay;
 
-import com.gupaoedu.vip.pattern.strategy.pay.payport.PayStrategy;
+
+import lktbz.strategy.pay.payport.PayStrategy;
 
 /**
  * Created by Tom.

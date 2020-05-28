@@ -1,7 +1,8 @@
 package lktbz.chain.auth.old;
 
 
-
+import lktbz.chain.auth.Member;
+import org.apache.commons.lang.StringUtils;
 
 /**
  * Created by Tom.
