@@ -1,6 +1,8 @@
 package lktbz.delegate.mvc;
 
-import com.gupaoedu.vip.pattern.delegate.mvc.controllers.MemberController;
+
+
+import lktbz.delegate.mvc.controllers.MemberController;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

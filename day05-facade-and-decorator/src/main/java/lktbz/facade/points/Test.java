@@ -1,6 +1,6 @@
 package lktbz.facade.points;
 
-import com.gupaoedu.vip.pattern.facade.general.Facade;
+
 
 /**
  * Created by Tom.

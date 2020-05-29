@@ -1,9 +1,11 @@
 package lktbz.template.jdbc.dao;
 
 
-import com.gupaoedu.vip.pattern.template.jdbc.entity.Member;
-import com.gupaoedu.vip.pattern.template.jdbc.framework.JdbcTemplate;
-import com.gupaoedu.vip.pattern.template.jdbc.framework.RowMapper;
+
+
+import lktbz.template.jdbc.entity.Member;
+import lktbz.template.jdbc.framework.JdbcTemplate;
+import lktbz.template.jdbc.framework.RowMapper;
 
 import javax.sql.DataSource;
 import java.sql.ResultSet;

@@ -1,6 +1,8 @@
 package lktbz.template.jdbc;
 
-import com.gupaoedu.vip.pattern.template.jdbc.dao.MemberDao;
+
+
+import lktbz.template.jdbc.dao.MemberDao;
 
 import java.util.List;
 
