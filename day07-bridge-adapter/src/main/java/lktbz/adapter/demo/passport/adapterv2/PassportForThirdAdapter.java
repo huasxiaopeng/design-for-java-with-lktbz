@@ -1,7 +1,8 @@
 package lktbz.adapter.demo.passport.adapterv2;
 
-import com.gupaoedu.vip.pattern.adapter.demo.passport.ResultMsg;
-import com.gupaoedu.vip.pattern.adapter.demo.passport.adapterv2.adapters.*;
+
+import lktbz.adapter.demo.passport.ResultMsg;
+import lktbz.adapter.demo.passport.adapterv2.adapters.*;
 
 /**
  * Created by Tom.
