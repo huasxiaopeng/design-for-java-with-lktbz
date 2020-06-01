@@ -1,8 +1,8 @@
 package lktbz.prototype.demo;
 
-import lombok.Data;
 
-@Data
+
+
 public class ExamPaper{
 
    private String examinationPaperId;//试卷主键
@@ -28,6 +28,190 @@ public class ExamPaper{
    private String singleOkCount;//单选题答对数量
    private String multiOkCount;//多选题答对数量
    private String judgementOkCount;//判断题答对数量
+
+   public String getExaminationPaperId() {
+      return examinationPaperId;
+   }
+
+   public void setExaminationPaperId(String examinationPaperId) {
+      this.examinationPaperId = examinationPaperId;
+   }
+
+   public String getLeavTime() {
+      return leavTime;
+   }
+
+   public void setLeavTime(String leavTime) {
+      this.leavTime = leavTime;
+   }
+
+   public String getOrganizationId() {
+      return organizationId;
+   }
+
+   public void setOrganizationId(String organizationId) {
+      this.organizationId = organizationId;
+   }
+
+   public String getId() {
+      return id;
+   }
+
+   public void setId(String id) {
+      this.id = id;
+   }
+
+   public String getExamRoomId() {
+      return examRoomId;
+   }
+
+   public void setExamRoomId(String examRoomId) {
+      this.examRoomId = examRoomId;
+   }
+
+   public String getUserId() {
+      return userId;
+   }
+
+   public void setUserId(String userId) {
+      this.userId = userId;
+   }
+
+   public String getSpecialtyCode() {
+      return specialtyCode;
+   }
+
+   public void setSpecialtyCode(String specialtyCode) {
+      this.specialtyCode = specialtyCode;
+   }
+
+   public String getPostionCode() {
+      return postionCode;
+   }
+
+   public void setPostionCode(String postionCode) {
+      this.postionCode = postionCode;
+   }
+
+   public String getGradeCode() {
+      return gradeCode;
+   }
+
+   public void setGradeCode(String gradeCode) {
+      this.gradeCode = gradeCode;
+   }
+
+   public String getExamStartTime() {
+      return examStartTime;
+   }
+
+   public void setExamStartTime(String examStartTime) {
+      this.examStartTime = examStartTime;
+   }
+
+   public String getExamEndTime() {
+      return examEndTime;
+   }
+
+   public void setExamEndTime(String examEndTime) {
+      this.examEndTime = examEndTime;
+   }
+
+   public String getSingleSelectionImpCount() {
+      return singleSelectionImpCount;
+   }
+
+   public void setSingleSelectionImpCount(String singleSelectionImpCount) {
+      this.singleSelectionImpCount = singleSelectionImpCount;
+   }
+
+   public String getMultiSelectionImpCount() {
+      return multiSelectionImpCount;
+   }
+
+   public void setMultiSelectionImpCount(String multiSelectionImpCount) {
+      this.multiSelectionImpCount = multiSelectionImpCount;
+   }
+
+   public String getJudgementImpCount() {
+      return judgementImpCount;
+   }
+
+   public void setJudgementImpCount(String judgementImpCount) {
+      this.judgementImpCount = judgementImpCount;
+   }
+
+   public String getExamTime() {
+      return examTime;
+   }
+
+   public void setExamTime(String examTime) {
+      this.examTime = examTime;
+   }
+
+   public String getFullScore() {
+      return fullScore;
+   }
+
+   public void setFullScore(String fullScore) {
+      this.fullScore = fullScore;
+   }
+
+   public String getPassScore() {
+      return passScore;
+   }
+
+   public void setPassScore(String passScore) {
+      this.passScore = passScore;
+   }
+
+   public String getUserName() {
+      return userName;
+   }
+
+   public void setUserName(String userName) {
+      this.userName = userName;
+   }
+
+   public String getScore() {
+      return score;
+   }
+
+   public void setScore(String score) {
+      this.score = score;
+   }
+
+   public String getResut() {
+      return resut;
+   }
+
+   public void setResut(String resut) {
+      this.resut = resut;
+   }
+
+   public String getSingleOkCount() {
+      return singleOkCount;
+   }
+
+   public void setSingleOkCount(String singleOkCount) {
+      this.singleOkCount = singleOkCount;
+   }
+
+   public String getMultiOkCount() {
+      return multiOkCount;
+   }
+
+   public void setMultiOkCount(String multiOkCount) {
+      this.multiOkCount = multiOkCount;
+   }
+
+   public String getJudgementOkCount() {
+      return judgementOkCount;
+   }
+
+   public void setJudgementOkCount(String judgementOkCount) {
+      this.judgementOkCount = judgementOkCount;
+   }
 
    public ExamPaper copy(){
       ExamPaper examPaper = new ExamPaper();
