@@ -1,7 +1,8 @@
 package lktbz.java.design.factory.method;
 
-import com.gupaoedu.vip.pattern.factory.ICourse;
-import com.gupaoedu.vip.pattern.factory.JavaCourse;
+
+import lktbz.java.design.simple.factory.ICourse;
+import lktbz.java.design.simple.factory.JavaCourse;
 
 /**
  * 小作坊式的工厂模型
@@ -17,10 +18,8 @@ public class SimpleFactoryTest {
 //        ICourseFactory factory = new ICourseFactory();
 ////        ICourse course = factory.create("com.gupaoedu.vip.pattern.factory.JavaCourse");
 ////        course.record();
-
         CourseFactory factory = new CourseFactory();
         ICourse course = factory.create(JavaCourse.class);
         course.record();
-
     }
 }

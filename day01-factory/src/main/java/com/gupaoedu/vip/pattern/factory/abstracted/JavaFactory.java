@@ -10,12 +10,12 @@ public class JavaFactory extends AbstractFactory {
     @Override
     protected INote createNote() {
         super.init();
-        return new JavaNote();
+        return new com.gupaoedu.vip.pattern.factory.abstracted.JavaNote();
     }
 
     @Override
     protected IVideo createVideo() {
         super.init();
-        return new JavaVideo();
+        return new com.gupaoedu.vip.pattern.factory.abstracted.JavaVideo();
     }
 }
