@@ -7,10 +7,12 @@ package lktbz.template.noextends;
  * @Date 2020/5/29
  */
 public class AutoCar  implements IOperation{
+    @Override
     public void putGear() {
         System.out.println("挂挡");
     }
 
+    @Override
     public void start() {
         System.out.println("踩油门");
     }

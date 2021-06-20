@@ -5,6 +5,7 @@ package lktbz.template.course;
  */
 public class PythonCourse extends AbastractCourse {
 
+    @Override
     protected void checkHomework() {
         System.out.println("检查Python作业");
     }

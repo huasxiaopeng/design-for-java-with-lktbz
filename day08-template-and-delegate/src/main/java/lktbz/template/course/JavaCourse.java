@@ -15,6 +15,7 @@ public class JavaCourse extends AbastractCourse {
         return this.needCheckHomework;
     }
 
+    @Override
     protected void checkHomework() {
         System.out.println("检查Java作业");
     }
