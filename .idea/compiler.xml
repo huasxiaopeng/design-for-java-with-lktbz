@@ -8,17 +8,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="day12-interpreter-and-meditor" />
-        <module name="day09-chain-and-strategy" />
-        <module name="day05-facade-and-decorator" />
-        <module name="day08-template-and-delegate" />
-        <module name="day03-prototype-and-builder" />
-        <module name="day02-single" />
-        <module name="day13-observer-and-visitor" />
-        <module name="day11-state-and-memento" />
         <module name="day01-factory" />
-        <module name="day10-command-and-iterator" />
+        <module name="day13-observer-and-visitor" />
+        <module name="day08-template-and-delegate" />
         <module name="day04-proxy" />
+        <module name="day05-facade-and-decorator" />
+        <module name="day09-chain-and-strategy" />
+        <module name="02-abstract-factory" />
+        <module name="00-base" />
+        <module name="day02-single" />
+        <module name="in-action" />
+        <module name="01-factory" />
+        <module name="day10-command-and-iterator" />
         <module name="day06-flyweight-and-composite" />
+        <module name="day11-state-and-memento" />
+        <module name="day03-prototype-and-builder" />
         <module name="day07-bridge-adapter" />
       </profile>
     </annotationProcessing>

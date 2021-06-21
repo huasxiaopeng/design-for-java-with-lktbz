@@ -22,8 +22,17 @@
         <module>day11-state-and-memento</module>
         <module>day12-interpreter-and-meditor</module>
         <module>day13-observer-and-visitor</module>
+        <module>in-action</module>
+        <module>in-action/00-base</module>
+        <module>in-action/02-abstract-factory</module>
+
     </modules>
     <dependencies>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.62</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
