@@ -3,20 +3,22 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>design-java-lktbz</artifactId>
+        <artifactId>in-action</artifactId>
         <groupId>org.example</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>in-action</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>01-factory</module>
-        <module>03-prototype</module>
-        <module>04-single</module>
-        <module>05-adapter</module>
-        <module>06-bridger</module>
-    </modules>
+    <groupId>com.bridger</groupId>
+    <artifactId>06-bridger</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.10</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
 
 </project>
