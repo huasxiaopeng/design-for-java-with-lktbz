@@ -49,4 +49,54 @@ public class PayController {
         }
         return true;
     }
+    /**
+     * 抽象提取分析：
+     *   public  boolean doPay(String uId, String tradeId, BigDecimal amount, int channelType, int modeType){
+     *   uId tradeId amount 为必要条件，支付参数
+     *
+     *    int channelType, int modeType 当进行抽象时，这两个判断条件基本不需要了
+     *    支付宝和微信 抽取出一个支付的方法
+     *
+     *   密码支付  人脸支付 指纹支付 这三种就是支付校验密码是否符合，然后做扣款操作，需要在支付操作里进行调用
+     *    密码支付  人脸支付 指纹支付 抽取出一个支付校验的操作。
+     *
+     *    下面是伪代码：
+     *     interface payMode{
+     *       //是否可以进行付款
+     *       boolean isSercurity(String uid);
+     *     }
+     *     //密码
+     *    class PayCypher ims payMode{
+     *        boolean  isSercurity(String uid){
+     *            业务操作
+     *            return true;
+     *        }
+     *    }
+     *  //人脸
+     *  class PayFaceMode ims payMode{
+     *      *        boolean  isSercurity(String uid){
+     *      *            业务操作
+     *      *            return true;
+     *      *        }
+     *      *    }
+     *  //指纹
+     *  class PayFinger ims payMode{
+     *      *        boolean  isSercurity(String uid){
+     *      *            业务操作
+     *      *            return true;
+     *      *        }
+     *      *    }
+     *
+     *  //支付伪代码
+     *  abs class pay{
+     *      payMode paymode;
+     *      pay(payMode paymode){}
+     *      dopay(uId tradeId amount){
+     *         boolean bs= paymode.isSercurity(uid)
+     *          判断是否需要进行下一步操作
+     *          支付成功or失败
+     *      }
+     *  }
+     *
+     */
 }
