@@ -19,6 +19,7 @@
         <module>06-bridger</module>
         <module>07-compose</module>
         <module>08-decorator</module>
+        <module>09-chain</module>
     </modules>
 
 </project>
